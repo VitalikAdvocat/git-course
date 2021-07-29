@@ -34,8 +34,25 @@
        Для удаления ветки используеться соответствено команда git branch -D testuser
        Для перехода на созданую ветку используют команду git checkout testuser 
        Можна также создать и автоматически туда перейти с помощью команды
-       git checkout -b test // и мы перешли на ветку test 
-
-   </p> 
+       git checkout -b test // и мы перешли на ветку test
+      </p> 
+      <p>Для совмещания файлов одного разработчика с другими используеться команда git merge writer2
+          //где writer2 имя ветки где находяться файлы которые добавляються к главному проекту
+          Для дальнейшего роботы с git  мы перейдем на визуальный редактор github.com где зарегимся
+          на почту vitadvocat.nemets@gmail.com пароль forgithub1 username - VitalikAdvocat
+      </p>
+      <p>Для того чтобы загрузить локальные файли на GitHub репозиторий нам надо знать точно имя и почту
+          которая привязана к нашему Git
+          git config --global user.name 
+          git config --global user.email 
+          поочередно введем даные команды мы узнаем свое имя и почту для привязки
+          git config --global user.name "vitalicadvocat" даной командой мы можем изменить имя, для почты анал<div class=""></div> 
+          Для привязки репозитория из сайта GitHub  new repozitiria копируем команду
+          git remote add origin https://github.com/VitalikAdvocat/git-course1.git
+          а дальше для передачи даных 
+          в случаи неудачной связки чтобы избежать ошибки для повторной спробы нужно выполнить
+          $ git remote rm origin // которая удалит origin 
+          git push -u origin master //где мастер имя ветки git
+      </p>
 </body>
 </html
